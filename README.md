@@ -1,2 +1,13 @@
-# SistemaGestionTurnos
-Sistema de gestión de turnos médicos para un centro de salud, desarrollado con Programación Orientada a Objetos. Permite registrar pacientes y médicos, asignar turnos según disponibilidad, enviar notificaciones y llevar un historial de turnos. Diseñado para mejorar la organización y evitar errores en la asignación de citas.
+# Sistema de gestión de turnos 
+<pre>
+Nombre:    Kalapuj, Sol Ailen 
+Materia:   Diseño orientado a objetos 
+Carrera:   Tecnicatura Universitaria en Programación de Sistemas 
+Profesor:  Velasquez Rojas, Matias Alejandro 
+Año:       2025 
+</pre>
+
+### **Descripción** 
+ Este proyecto tiene como objetivo desarrollar un sistema de gestión de turnos médicos para un centro de salud en proceso de digitalización. El sistema, basado en la programación orientada a objetos, permitirá registrar pacientes y médicos, asignar turnos de acuerdo con la disponibilidad, enviar notificaciones y mantener un historial detallado de los turnos. Su diseño está enfocado en optimizar la organización y reducir los errores en la asignación de citas, mejorando así la eficiencia operativa del centro de salud.
+
+#### [Anexos](anexos.md)
