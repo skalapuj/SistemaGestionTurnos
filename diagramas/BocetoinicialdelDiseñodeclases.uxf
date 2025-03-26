@@ -1,0 +1,51 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>620</x><y>510</y><w>210</w><h>170</h></coordinates><panel_attributes>Recepcionista
+--
+- nombre          
+- email           
+ - telefono        
+- turnosGestionados
+- horarioTrabajo 
+--
++ registrarPaciente()
++ consultarDisponibilidadMedico() 
++ enviarConfirmación() 
++ registrarse()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>100</x><y>290</y><w>210</w><h>170</h></coordinates><panel_attributes>Médico
+--
+- nombre          
+- matrícula
+- especialidad
+- telefono
+--
++ agendarTurno()  
++ eliminarTurno() 
++ atenderTurno() 
++ consultarHistorial() 
++ registrarse()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>100</x><y>480</y><w>210</w><h>140</h></coordinates><panel_attributes>Paciente       
+--
+- nombre          
+- documento
+- fechaNacimiento
+- historialTurnos
+- mail
+--
++ solicitarTurno()  
++ cancelarTurno() </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>560</x><y>280</y><w>210</w><h>170</h></coordinates><panel_attributes>Turno
+--
+- fechaHora
+- estado
+ - médico
+- paciente
+- motivo
+- observaciones
+--
++ confirmar()  
++ cancelar() 
++ atender() </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>430</x><y>490</y><w>140</w><h>40</h></coordinates><panel_attributes>SistemaNoticaciones
+--
++ enviarNotificación()  </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>840</x><y>370</y><w>210</w><h>100</h></coordinates><panel_attributes>Agenda
+--
+- turnos
+--
++ agendarTurno()  
++ cancelarTurno() 
++ consultarTurnos() </panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>300</x><y>400</y><w>280</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;90;260;10</additional_attributes></element><element><id>Relation</id><coordinates><x>300</x><y>540</y><w>340</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;320;70</additional_attributes></element><element><id>Relation</id><coordinates><x>760</x><y>330</y><w>100</w><h>60</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;80;40</additional_attributes></element><element><id>Relation</id><coordinates><x>300</x><y>380</y><w>150</w><h>130</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>130;110;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>560</x><y>500</y><w>80</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;60;10</additional_attributes></element><element><id>Relation</id><coordinates><x>760</x><y>330</y><w>100</w><h>60</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>80;40;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>700</x><y>440</y><w>160</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>140;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>300</x><y>370</y><w>280</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;260;10</additional_attributes></element><element><id>Relation</id><coordinates><x>680</x><y>440</y><w>50</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;30;70</additional_attributes></element></diagram>
