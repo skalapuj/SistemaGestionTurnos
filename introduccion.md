@@ -1,4 +1,4 @@
-# Introducción 
+# Anexo - Introducción al Diseño Orientado a Objetos
 
 ## Paradigma Orientado a Objetos
 La Programación Orientada a Objetos (POO) es un paradigma de programación basado
@@ -69,9 +69,15 @@ se ocultan los detalles complejos de la implementación.
 - **Actores involucrados**: Recepcionista y paciente.
 - **Descripción breve**: Permite registrar un nuevo paciente en el sistema.
 - **Flujo principal de eventos**:
-  1. El recepcionista ingresa los datos del paciente.
-  2. El sistema valida la información.
-  3. Se registra al paciente en la base de datos.
+  1. El recepcionista accede al sistema mediante su usuario y contraseña.
+  2. Selecciona la opción "Registrar nuevo paciente".
+  3. El sistema muestra un formulario con campos obligatorios: nombre, apellido, DNI, fecha de nacimiento, teléfono, email.
+  4. El recepcionista completa todos los campos con los datos proporcionados por el paciente.
+  5. El sistema valida los datos ingresados (formato correcto de email, teléfono, y que el DNI no esté duplicado).
+  6. Si hay errores, muestra mensajes de advertencia y permite corregirlos.
+  7. Una vez validados los datos, el recepcionista confirma el registro.
+  8. El sistema guarda al paciente en la base de datos.
+  9. El sistema muestra un mensaje de éxito indicando que el paciente fue registrado correctamente.
 - **Precondiciones**: El recepcionista debe estar autenticado.
 - **Postcondiciones**: El paciente queda registrado en el sistema.
 
@@ -79,11 +85,18 @@ se ocultan los detalles complejos de la implementación.
 - **Actores involucrados**: Recepcionista, médico y paciente.
 - **Descripción breve**: Permite asignar un turno a un paciente con un médico.
 - **Flujo principal de eventos**:
-  1. El recepcionista selecciona un paciente y un médico.
-  2. El sistema muestra la disponibilidad de ese médico.
-  3. Se asigna el turno disponible al paciente y se guarda en el sistema.
-  4. Se envia un mail notificando al paciente.
-  5. Se bloquea ese turno en el calendario de este médico.
+  1. Selecciona la opción "Asignar turno".
+  2. Busca al paciente por DNI o nombre.
+  3. El sistema muestra los datos del paciente.
+  4. Selecciona al médico por especialidad o nombre.
+  5. El sistema muestra los días y horarios disponibles del médico.
+  6. El recepcionista elige una fecha y hora disponible.
+  7. Opcionalmente se ingresa el motivo de la consulta y observaciones.
+  8. El sistema verifica que no haya conflictos con otros turnos.
+  9. Si está todo correcto, se guarda el turno y se lo asigna al paciente.
+  10. El sistema muestra un mensaje de éxito indicando que el turno fue asignado correctamente.
+  11. El sistema envía una notificación al paciente por correo electrónico o mensaje de texto.
+  12. El turno queda bloqueado en el calendario del médico.
 - **Precondiciones**: El médico debe estar registrado y tener disponibilidad.
 - **Postcondiciones**: El turno queda registrado y el paciente notificado.
 
@@ -91,9 +104,12 @@ se ocultan los detalles complejos de la implementación.
 - **Actor involucrado**: Paciente.
 - **Descripción breve**: Permite confirmar un turno previamente asignado.
 - **Flujo principal de eventos**:
-  1. El paciente recibe la notificación de turno.
-  2. Confirma el turno a través del sistema.
-  3. El sistema actualiza el estado del turno a "confirmado".
+  1. El paciente recibe una notificación de turno pendiente por correo electrónico o mensaje.
+  2. Ingresa al sistema o accede al enlace recibido para confirmar.
+  3. Visualiza los detalles del turno (fecha, hora, médico, motivo).
+  4. Hace clic en "Confirmar turno".
+  5. El sistema actualiza el estado del turno a "Confirmado".
+  6. El paciente recibe una confirmación por el mismo medio.
 - **Precondiciones**: El turno debe existir y estar pendiente de confirmación.
 - **Postcondiciones**: El estado del turno se actualiza en el sistema.
 
@@ -101,10 +117,14 @@ se ocultan los detalles complejos de la implementación.
 - **Actores involucrados**: Paciente, recepcionista y médico.
 - **Descripción breve**: Permite cancelar un turno asignado.
 - **Flujo principal de eventos**:
-  1. El paciente solicita la cancelación del turno.
-  2. El recepcionista verifica y confirma la cancelación.
-  3. El sistema actualiza el estado del turno a "cancelado".
-  3. Se le disponibiliza ese turno al médico.
+  1. El paciente decide cancelar un turno y contacta al centro de salud.
+  2. Si se comunica telefónicamente, el recepcionista busca el turno en el sistema.
+  3. Se verifica que el turno pertenece al paciente, que está vigente y que aún puede ser cancelado.
+  4. Se solicita una confirmación final de cancelación.
+  5. El sistema actualiza el estado del turno a "Cancelado".
+  6. El turno cancelado se libera en la agenda del médico.
+  7. El sistema envía una notificación al paciente.
+  8. El sistema muestra un mensaje de éxito indicando que el turno fue cancelado correctamente.
 - **Precondiciones**: El turno debe existir para algún médico y ser de ese paciente.
 - **Postcondiciones**: El turno queda marcado como cancelado en el sistema y el
 - médico pasa a tener disponible ese turno.
@@ -113,9 +133,13 @@ se ocultan los detalles complejos de la implementación.
 - **Actores involucrados**: Paciente y Recepcionista.
 - **Descripción breve**: Permite consultar el historial de turnos de un paciente.
 - **Flujo principal de eventos**:
-  1. El Recepcionista o médico accede al sistema.
-  2. Busca el paciente por DNI o nombre.
-  3. El sistema muestra todos los turnos anteriores y futuros.
+  1. El recepcionista inicia sesión en el sistema.
+  2. Selecciona la opción "Historial de turnos".
+  3. Ingresa el DNI o nombre del paciente.
+  4. El sistema busca y muestra los datos del paciente.
+  5. Se listan todos los turnos anteriores y los próximos, con su estado (confirmado, cancelado, pendiente), fecha, hora, profesional y motivo.
+  6. El recepcionista puede aplicar filtros por fecha, estado o profesional.
+  7. El sistema permite exportar o imprimir el historial si es necesario.
 - **Precondiciones**: El paciente debe estar registrado.
 - **Postcondiciones**: Se presenta el historial de turnos en pantalla.
 
