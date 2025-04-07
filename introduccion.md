@@ -157,7 +157,7 @@ se ocultan los detalles complejos de la implementación.
 - **Postcondiciones**: Se presenta el historial de turnos en pantalla.
 
 ## Boceto inicial del Diseño de clases
-![Boceto inicial del Diseño de clases]()
+![Boceto inicial del Diseño de clases](https://github.com/skalapuj/SistemaGestionTurnos/raw/main/diagramas/Boceto%20inicial%20del%20Dise%C3%B1o%20de%20clases.png)
 
 |Clase|Descripción|
 |-----|-----------|
