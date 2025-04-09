@@ -7,13 +7,13 @@
 
    ![Asignación de Turno](https://github.com/skalapuj/SistemaGestionTurnos/raw/main/diagramas/casosUso/asignacionTurno/asignacionTurno.png)
 
- - [Caso de uso 3 - Confirmación de Turno](https://drive.google.com/file/d/1Bl99HBchatc7ovn685bxtsyodXNmThf4/view?usp=sharing)
+ - [Caso de uso 3 - Cancelación de Turno](https://drive.google.com/file/d/1Bl99HBchatc7ovn685bxtsyodXNmThf4/view?usp=sharing)
 
-   ![Confirmación de Turno](https://github.com/skalapuj/SistemaGestionTurnos/raw/main/diagramas/casosUso/Confirmaci%C3%B3nTurno/Confirmaci%C3%B3nTurno.png)
+   ![Cancelación de Turno](https://github.com/skalapuj/SistemaGestionTurnos/raw/main/diagramas/casosUso/Confirmaci%C3%B3nTurno/Confirmaci%C3%B3nTurno.png)
 
- - [Caso de uso 4 - Cancelación de Turno](https://drive.google.com/file/d/1GS7BO9D2G43QSI-_WKqBEFfAl9CV7Wr2/view?usp=sharing)
+ - [Caso de uso 4 - Confirmación de Turno](https://drive.google.com/file/d/1GS7BO9D2G43QSI-_WKqBEFfAl9CV7Wr2/view?usp=sharing)
 
-   ![Cancelación de Turno](https://github.com/skalapuj/SistemaGestionTurnos/raw/main/diagramas/casosUso/Cancelaci%C3%B2nTurno/CancelacionTurno.png)
+   ![Confirmación de Turno](https://github.com/skalapuj/SistemaGestionTurnos/raw/main/diagramas/casosUso/Cancelaci%C3%B2nTurno/CancelacionTurno.png)
 
  - [Caso de uso 5 - Consulta de Historial de Turnos](https://drive.google.com/file/d/1jjIKoGVTMAqI-kKyt_bRKY-YBdf_uCRY/view?usp=sharing)
 
