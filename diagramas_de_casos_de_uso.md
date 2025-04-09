@@ -1,4 +1,4 @@
-# Diagramas de Casos de Uso
+# Diagramas de casos de uso
  - [Caso de uso 1 - Nombre del caso de uso 1]()
  - [Caso de uso 2 - Nombre del caso de uso 2]()
  - [Caso de uso 3 - Nombre del caso de uso 3]()
