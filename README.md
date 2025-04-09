@@ -12,3 +12,5 @@ Año:       2025
 
 ### **Diagramas y Diseños** 
  - [Anexos](anexos.md)
+ - [Diagrama UML](diagrmasUML.md)
+ - [Herramientas agile](herramientas_agile.md)
