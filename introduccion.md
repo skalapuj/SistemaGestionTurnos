@@ -158,7 +158,7 @@ se ocultan los detalles complejos de la implementación.
 
 ## Boceto inicial del Diseño de clases
 ![Boceto inicial del Diseño de clases](https://github.com/skalapuj/SistemaGestionTurnos/raw/main/imagenes/Boceto%20inicial%20del%20Dise%C3%B1o%20de%20clases.png)
-[Boceto de Diseño de Clases](https://drive.google.com/file/d/1n2TsOCuJ0kxj4p1C9c2sEuaTvZG4F68J/view?usp=sharing)
+[Ver diagrama en detalle](https://drive.google.com/file/d/1n2TsOCuJ0kxj4p1C9c2sEuaTvZG4F68J/view?usp=sharing)
 |Clase|Descripción|
 |-----|-----------|
 |Médico|Representa a los profesionales de la salud que atienden pacientes. Contiene su información personal (nombre, matrícula, especialidad, teléfono) y métodos para gestionar sus turnos (agendarlos, atenderlos o consultarlos).|
