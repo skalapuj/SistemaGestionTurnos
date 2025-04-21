@@ -157,8 +157,8 @@ se ocultan los detalles complejos de la implementación.
 - **Postcondiciones**: Se presenta el historial de turnos en pantalla.
 
 ## Boceto inicial del Diseño de clases
-![Boceto inicial del Diseño de clases](https://github.com/skalapuj/SistemaGestionTurnos/raw/main/diagramas/Boceto%20inicial%20del%20Dise%C3%B1o%20de%20clases.png)
-
+![Boceto inicial del Diseño de clases](https://github.com/skalapuj/SistemaGestionTurnos/raw/main/imagenes/Boceto%20inicial%20del%20Dise%C3%B1o%20de%20clases.png)
+[Boceto de Diseño de Clases](https://drive.google.com/file/d/1n2TsOCuJ0kxj4p1C9c2sEuaTvZG4F68J/view?usp=sharing)
 |Clase|Descripción|
 |-----|-----------|
 |Médico|Representa a los profesionales de la salud que atienden pacientes. Contiene su información personal (nombre, matrícula, especialidad, teléfono) y métodos para gestionar sus turnos (agendarlos, atenderlos o consultarlos).|
@@ -168,4 +168,4 @@ se ocultan los detalles complejos de la implementación.
 |Agenda|Contenedor de turnos que permite gestionar la disponibilidad de cada médico. Puede consultarse o modificarse según los cambios en los turnos.|
 |Sistema Notificaciones|Gestiona el envío de notificaciones automáticas a pacientes y médicos cuando un turno es confirmado, cancelado o modificado. Justifica su existencia ya que abstrae la lógica de envío, puede manejar distintos medios (email, SMS) y registrar intentos de entrega, errores o logs de comunicación. También permite la escalabilidad si se integran más canales en el futuro.|
 
-[Boceto de Diseño de Clases](https://drive.google.com/file/d/1n2TsOCuJ0kxj4p1C9c2sEuaTvZG4F68J/view?usp=sharing)
+
