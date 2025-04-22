@@ -24,5 +24,3 @@ su responsabilidad sin interferencias. Si hay un cambio en el sistema contable, 
 [Ver diagrama en detalle](https://drive.google.com/file/d/1n7ld2vgDHjx-63J7MM3WtpFKxPPUGBbj/view?usp=sharing)
 
 Cada clase tiene una única responsabilidad: Recepcionista registra pacientes, Agenda gestiona turnos, y SistemaNotificaciones envía notificaciones. Esto permite mantener y modificar cada módulo de forma independiente.
-
-Así, si cambia la forma de enviar notificaciones (por ejemplo, se pasa de SMS a WhatsApp), solo se modifica esa parte del sistema, sin afectar a quienes gestionan turnos o agendas.
