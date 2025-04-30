@@ -7,8 +7,11 @@ Las clases de alto nivel no deben depender de clases de bajo nivel, sino de abst
 ## Motivación
 Antes, si queríamos cambiar el mecanismo de notificación (por ejemplo, de mail a SMS) al confirmar o cancelar un turno, debíamos modificar la lógica interna de Turno. Ahora, con DIP, Turno solo conoce una interfaz genérica. Esto permite cambiar la forma de notificación sin afectar la lógica de negocio ni tocar el código de Turno.
 
-Un ejemplo del mundo real es un auto este no debería depender directamente de una marca específica de motor. 
-En lugar de eso, el motor debe seguir una interfaz estándar. Así, si cambiás de proveedor de motor, no tenés que rediseñar todo el auto.
+Un ejemplo del mundo real aplicado: Supongamos que cada vez que se confirma un turno, el recepcionista debe llamar al paciente por teléfono. Si la clínica decide cambiar y usar emails o WhatsApp, el recepcionista tiene que aprender todo de nuevo, y su trabajo se ve afectado.
+
+Pero si el recepcionista simplemente dice “enviá la notificación” y hay un sistema que se encarga, no importa cómo se envíe. Pueden cambiar de SMS a email sin afectar la rutina del recepcionista. Así, el trabajo depende de una abstracción (“avisar al paciente”) y no de una herramienta concreta.
+
+
 
 ## Estructura de Clases
 
