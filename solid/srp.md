@@ -14,8 +14,8 @@ En el modelo original, la clase Recepcionista gestionaba tanto el registro de pa
 Al aplicar SRP, delegamos el envío de mensajes a SistemaNotificaciones, la gestión de turnos a Agenda, y el registro de pacientes a Recepcionista, dividiendo claramente sus motivos de cambio.
 
 Un ejemplo del mundo real aplicado es:
-Supongamos que es una clínica pequeña donde la recepcionista tiene que tomar los datos de los pacientes nuevos, organizar los turnos con los médicos, llamar o mandar mensajes recordando los turnos  y, además, gestionar la agenda diaria del consultorio. Si mañana el consultorio decide usar una nueva plataforma para enviar recordatorios, la recepcionista tendría que aprender a usarla y adaptarse, lo que podría hacer que descuide otras tareas, como cargar correctamente los datos de un nuevo paciente. El trabajo se vuelve propenso a errores.
-En cambio, si cada una de estas tareas se asigna a personas distintas o a herramientas especializadas, el cambio afecta solo a quien se ocupa de los recordatorios, sin complicar a los demás. Esto permite que cada persona (o sistema) se enfoque en hacer bien una sola cosa.
+Supongamos que es una una clínica pequeña donde la recepcionista se encarga de todo: anotar datos de pacientes nuevos, coordinar turnos con los médicos, llamar para recordar citas, y además revisar la agenda diaria. Si un día cambian la herramienta para enviar recordatorios, la recepcionista no solo tiene que aprender algo nuevo, sino que puede equivocarse al cargar pacientes o retrasarse en asignar turnos. Lo mismo si falta la recepcionista por enfermedad y no hay una tarea claramente asignada: todo se vuelve caótico.
+En cambio, si cada tarea está claramente dividida —una persona para la agenda, otra para notificaciones, otra para recibir pacientes— cada rol puede adaptarse a sus propios cambios sin impactar al resto. Así se reducen los errores y se trabaja con más claridad.
 
 ## Estructura de Clases
 
