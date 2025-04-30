@@ -9,7 +9,9 @@ Con LSP, garantizamos que métodos como agendarTurno() se comporten de manera co
 ## Motivación
 Si un Médico implementaba su propia lógica de turnos que no respetaba la de Agenda, podía romper la coherencia del sistema. Ahora, delega en Agenda, asegurando consistencia y posibilidad de sustitución sin errores.
 
-Un ejemplo del mundo real podría ser un auto este puede ser reemplazado por un taxi (una subclase), ambos deberían tener comportamiento similar al conducir. Pero si el taxi obliga a llevar pasajeros todo el tiempo, se rompe el principio.
+Un ejemplo del mundo real aplicado: Pensemos que cada médico gestiona los turnos a su manera: uno usa una libreta, otro un Excel y otro una app en su celular. Si un día un médico se ausenta y hay que reasignar sus pacientes a otro, nadie entiende su agenda y el caos es inevitable.
+
+En cambio, si todos usan el mismo sistema para organizar turnos, cualquier médico puede ser reemplazado sin problemas. La información está clara, estructurada y cualquiera puede seguir trabajando sin errores. Esto asegura coherencia y reemplazos sin fricción.
 
 ## Estructura de Clases
 
