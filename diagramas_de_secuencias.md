@@ -7,4 +7,4 @@
 
  - [Diagrama de Secuencia - Confirmación de Turno - Confirmación exitosa de un turno]()
 
- - [Diagrama de Secuencia - Consulta de Historial de Turnos - Consulta exitosa del historial de turno de un paciente]
+ - [Diagrama de Secuencia - Consulta de Historial de Turnos - Consulta exitosa del historial de turno de un paciente]()
