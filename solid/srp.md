@@ -21,6 +21,6 @@ En cambio, si cada tarea está claramente dividida —una persona para la agenda
 
 ![Diagrama SRP](https://github.com/skalapuj/SistemaGestionTurnos/raw/main/imagenes/solid/SRP.png)
 
-[Ver diagrama en detalle](https://drive.google.com/file/d/1n7ld2vgDHjx-63J7MM3WtpFKxPPUGBbj/view?usp=sharing)
+[Ver diagrama en detalle](https://drive.google.com/file/d/1z7pzMitLnoaQLfSAg-comtJPz4XlYQy2/view?usp=sharing)
 
 Cada clase tiene una única responsabilidad: Recepcionista registra pacientes, Agenda gestiona turnos, y SistemaNotificaciones envía notificaciones. Esto permite mantener y modificar cada módulo de forma independiente.
