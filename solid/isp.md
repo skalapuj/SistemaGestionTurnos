@@ -8,9 +8,9 @@ Ninguna clase debe depender de métodos que no utiliza. En el sistema inicial, a
 ## Motivación
 SistemaNotificaciones tenía métodos que no todos necesitaban. Al segregar interfaces, podemos tener INotificadorPaciente y INotificadorMedico, permitiendo que cada clase consuma solo lo que requiere.
 
-Un ejemplo de la vida real es un control remoto tiene botones. Ahora bien, el control del aire acondicionado tiene botones diferentes al de la TV. 
-Si les exigimos tener todos los mismos botones, terminaríamos con un control lleno de funciones inútiles como "encender canal" en un 
-aire acondicionado.
+Un ejemplo del mundo real aplicado: Pensemos en un sistema interno que obliga a todos los empleados a seguir el mismo procedimiento para notificar, revisar agendas, contactar pacientes, actualizar administración, enviar recordatorios. Pero no todos necesitan hacer todo eso. Un médico solo quiere consultar su agenda. Una recepcionista quiere avisar por mensaje. Y un administrador solo necesita registros.
+
+Si el sistema estuviera dividido en partes específicas para cada rol, cada persona usaría solo lo necesario. Eso reduce confusión, errores y tiempo perdido en tareas irrelevantes. Cada uno ve y hace solo lo que le corresponde.
 
 ## Estructura de Clases
 
