@@ -14,7 +14,7 @@ En cambio, si usan un sistema central que puede integrar nuevos canales sin que 
 
 ## Estructura de Clases
 
-![Diagrama OCP]()
+![Diagrama OCP](https://github.com/skalapuj/SistemaGestionTurnos/raw/main/imagenes/solid/OCP1.png)
 
 [Ver diagrama en detalle](https://drive.google.com/file/d/11jWMnbvvoTs6F9Jyj6gsnQP2EkqqNA4N/view?usp=sharing)
 
