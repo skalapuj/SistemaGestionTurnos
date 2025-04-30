@@ -8,9 +8,9 @@ En nuestro sistema, la lógica para enviar notificaciones se encontraba dispersa
 
 Antes, si queríamos añadir otro tipo de notificación, debíamos modificar el código de varias clases. Esto es riesgoso y propenso a errores. Ahora, extendiendo SistemaNotificaciones con nuevas estrategias de envío (por ejemplo, NotificadorEmail, NotificadorSMS), el sistema crece sin tocar clases existentes.
 
-Un ejemplo del mundo real podría ser en una cafetera automática. Inicialmente solo hace café. 
-Luego querés que haga capuchino o té. Si tenés que abrirla y cambiar los circuitos cada vez que agregás una bebida, es un caos. 
-Mejor es diseñarla con "módulos de bebida" intercambiables. Así podés agregar funciones sin modificar el cuerpo de la cafetera.
+Un ejemplo del mundo real aplicado es: Supongamos que la clínica empezó usando solo llamadas telefónicas y correos electrónicos para avisar sobre los turnos. Con el tiempo, los pacientes prefieren recibir mensajes por WhatsApp o incluso por redes sociales como Instagram. Si cada vez que quieren sumar un nuevo medio hay que enseñar a todo el personal cómo usarlo y cambiar todos los pasos, es un lío.
+
+En cambio, si usan un sistema central que puede integrar nuevos canales sin que el personal cambie su forma de trabajar, simplemente se agrega un nuevo método y listo. Así se adapta el sistema sin tener que modificar lo que ya funciona.
 
 ## Estructura de Clases
 
