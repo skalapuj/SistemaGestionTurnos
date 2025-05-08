@@ -5,6 +5,6 @@
 
  - [Diagrama de Secuencia - Cancelación de Turno](https://drive.google.com/file/d/1Zw5LQo8K_3Xzop7F8LgSLuE8nJ3_Z0Ht/view?usp=sharing)
 
- - [Diagrama de Secuencia - Confirmación de Turno](https://drive.google.com/file/d/1zyLWB4Oh5lnyPCZApSuD7lUYZKMiPkHs/view?usp=sharing)
+ - [Diagrama de Secuencia - Confirmación de Turno](https://drive.google.com/file/d/1HupieJLXso7_mqu-gPSSutw5qU5O0pJC/view?usp=sharing)
 
  - [Diagrama de Secuencia - Consulta de Historial de Turnos](https://drive.google.com/file/d/1T1dbtbZRsXBQDeZ_KZQR9QD1dPqeSH07/view?usp=sharing)
