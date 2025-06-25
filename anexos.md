@@ -5,6 +5,6 @@
 
 - [Anexo - Aplicación de Patrón de Diseño creacional - Singleton](PatronDeDisenoCreacional.md)
 
-- [Anexo - Aplicación de Patrón de Diseño estructural - Facade](PatronDeDisenoEstructural.md)
+- [Anexo - Aplicación de Patrón de Diseño estructural - Adapter](PatronDeDisenoEstructural.md)
   
 - [Anexo - Aplicación de Patrón de Diseño de comportamiento - Observer](PatronDeDisenoDeComportamiento.md)
