@@ -39,7 +39,7 @@ y la reutilización.
 # Ejemplo en el proyecto
 ![Abstracción aplicada en el proyecto](https://github.com/skalapuj/SistemaGestionTurnos/raw/main/imagenes/Abstraccion.png)
 
-[Ver diagrama en detalle](https://drive.google.com/drive/folders/1PD_VXrVfHx_6uPBnyvmyJnpspWQVVLQg)
+[Ver diagrama en detalle](https://drive.google.com/file/d/1kBxbsnr3r6BuCaIunxNGp-uEiJD17HcO/view?usp=sharing)
 
 En el diagrama de clases, Turno abstrae la relación entre Paciente y Medico para centralizar 
 la lógica de asignación y gestión de disponibilidad. Esto permite separar la lógica de interfaz 
