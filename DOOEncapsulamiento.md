@@ -41,7 +41,7 @@ paso sin exponer la lógica interna al cliente.
 adicional o para restringir su uso directo.
 
 # Ejemplo en el proyecto
-![Herencia aplicada en el proyecto](https://github.com/skalapuj/SistemaGestionTurnos/raw/main/imagenes/Encapsulamiento.png)
+![Encapsulamiento aplicada en el proyecto](https://github.com/skalapuj/SistemaGestionTurnos/raw/main/imagenes/Encapsulamiento.png)
 
 [Ver diagrama en detalle](https://drive.google.com/file/d/1sh5tADlobsEZqvXHOZyjEqnH_QohUjDI/view?usp=sharing)
 
